@@ -47,10 +47,11 @@ export default function TodoList() {
   }
 
   const updateTask = (existingTask, updatedTask) => {
-    console.log(updatedTask)
-    setEditing(false)
+    console.log(existingTask, updatedTask )
+
+    // setEditing(false)
   
-    setTasks(tasks.map((item) => (item === existingTask ? updatedTask : existingTask)))
+    // setTasks(tasks.map((item) => (item === existingTask ? updatedTask : existingTask)))
   }
   return (
     
